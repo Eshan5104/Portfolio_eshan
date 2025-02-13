@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+header {
+    background-color: #333; /* Dark gray header */
+    color: #fff; /* White text color */
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation links */
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    background-color: #fff; /* White background for home section */
+    padding: 4rem 0;
+    text-align: center; /* Center the content */
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#home img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Maintain aspect ratio and cover the circle */
+    margin-top: 2rem;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-card {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    background-color: #fff; /* White background for project cards */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+footer {
+    background-color: #333; /* Dark gray footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 1rem 0;
+}
